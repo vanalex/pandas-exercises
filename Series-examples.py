@@ -69,3 +69,15 @@ print(cities / 3)
 # square city values
 print('')
 print(np.square(cities))
+
+# add 2 Series together
+print('')
+print(cities[['Chicago', 'New York', 'Portland']])
+print('\n')
+print(cities[['Austin', 'New York']])
+print('\n')
+print(cities[['Chicago', 'New York', 'Portland']] + cities[['Austin', 'New York']])
+
+# null checking can be done with isnull and notnull
+print('')
+print(cities.notnull())
